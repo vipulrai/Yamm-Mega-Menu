@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Yet another megamenu for Bootstrap">
+    <meta name="author" content="@avh">
+    <title>AVH</title>
+    <!-- Bootstrap and demo styles-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">   
+	<link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Demo navbar-->
+    <nav class="yamm navbar navbar-expand-lg navbar-light fixed-top yamm-menu-wrap">
+      <div class="container w-100">
+	  <a class="navbar-brand" href="#"><img src="logo-white.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbar-collapse-1">
+          <ul class="navbar-nav ml-auto">
+            <!-- Classic list-->
+			<li class="nav-item">
+				<a href="#" class="nav-link">About Us</a>
+			</li>
+            <li class="nav-item dropdown yamm-fw"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Products</a>
+              <div class="dropdown-menu p-0">
+                <!-- Content container to add padding-->
+                <div class="yamm-content">
+                  <div class="row">
+                    <ul class="col-sm-3 list-unstyled">
+                      <li>
+                        <p><strong>Section Title</strong></p>
+                      </li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                    </ul>
+                    <ul class="col-sm-3 list-unstyled">
+                      <li>
+                        <p><strong>Links Title</strong></p>
+                      </li>
+                      <li><a href="#"> Link Item</a></li>
+                      <li><a href="#"> Link Item</a></li>
+                      <li><a href="#"> Link Item</a></li>
+                      <li><a href="#"> Link Item</a></li>
+                      <li><a href="#"> Link Item</a></li>
+                      <li><a href="#"> Link Item</a></li>
+                    </ul>
+                    <ul class="col-sm-3 list-unstyled">
+                      <li>
+                        <p><strong>Section Title</strong></p>
+                      </li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                    </ul>
+                    <ul class="col-sm-3 list-unstyled">
+                      <li>
+                        <p><strong>Section Title</strong></p>
+                      </li>
+                      <li>List Item</li>
+                      <li>List Item</li>
+                      <li>
+                        <ul>
+                          <li><a href="#"> Link Item</a></li>
+                          <li><a href="#"> Link Item</a></li>
+                          <li><a href="#"> Link Item</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Accordion demo-->
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Accordion</a>
+              <div class="dropdown-menu p-0">
+                <div class="yamm-content">
+                  <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">Collapsible Group Item #1</button>
+                        </h2>
+                      </div>
+                      <div class="collapse show" id="collapseOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="card-text">Ut consectetur ullamcorper purus a rutrum.<br>Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">Collapsible Group Item #2</button>
+                        </h2>
+                      </div>
+                      <div class="collapse" id="collapseTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="card-text">Ut consectetur ullamcorper purus a rutrum.<br>Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree">Collapsible Group Item #3</button>
+                        </h2>
+                      </div>
+                      <div class="collapse" id="collapseThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="card-text">Ut consectetur ullamcorper purus a rutrum.<br>Etiam dui nisi, hendrerit feugiat scelerisque et, cursus eu magna.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Classic dropdown-->
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Classic</a>
+              <div class="dropdown-menu" role="menu"><a class="dropdown-item" tabindex="-1" href="#"> Action</a><a class="dropdown-item" tabindex="-1" href="#"> Another action</a><a class="dropdown-item" tabindex="-1" href="#"> Something else here</a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" tabindex="-1" href="#"> Separated link</a>
+              </div>
+            </li>
+            <!-- Pictures-->
+            <li class="nav-item dropdown yamm-fw"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Pictures</a>
+              <div class="dropdown-menu p-0">
+                <div class="yamm-content">
+                  <div class="row">
+                    <div class="col-xs-6 col-sm-2"><a href="#"><img class="img-thumbnail img-fluid" alt="150x190" src="demo/img/190.jpg"></a></div>
+                    <div class="col-xs-6 col-sm-2"><a href="#"><img class="img-thumbnail img-fluid" alt="150x190" src="demo/img/190.jpg"></a></div>
+                    <div class="col-xs-6 col-sm-2"><a href="#"><img class="img-thumbnail img-fluid" alt="150x190" src="demo/img/190.jpg"></a></div>
+                    <div class="col-xs-6 col-sm-2"><a href="#"><img class="img-thumbnail img-fluid" alt="150x190" src="demo/img/190.jpg"></a></div>
+                    <div class="col-xs-6 col-sm-2"><a href="#"><img class="img-thumbnail img-fluid" alt="150x190" src="demo/img/190.jpg"></a></div>
+                    <div class="col-xs-6 col-sm-2"><a href="#"><img class="img-thumbnail img-fluid" alt="150x190" src="demo/img/190.jpg"></a></div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+	<div class="row m-0">
+	<div class="col-12 p-0">
+		<!-- partial:index.partial.html -->
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://images.unsplash.com/photo-1432958576632-8a39f6b97dc7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=6ecedc1e639d8a4b77aa8e85f4962f03" data-color="lightblue" alt="First Image">
+      <div class="carousel-caption d-md-block">
+        <h5>First Image</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://images.unsplash.com/photo-1504736038806-94bd1115084e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=3d045bbf1ecc01c4c9ec011ce5c8977d" data-color="firebrick" alt="Second Image">
+      <div class="carousel-caption d-md-block">
+        <h5>Second Image</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://images.unsplash.com/photo-1419064642531-e575728395f2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=76d5c793e4f8d02d7a9be27bc71256f7" data-color="violet" alt="Third Image">
+      <div class="carousel-caption d-md-block">
+        <h5>Third Image</h5>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<!-- partial -->
+	</div>
+</div>
+
+<div class="row m-0">
+	<div class="col-4">1111</div>
+	<div class="col-4">22</div>
+	<div class="col-4">333</div>
+</div>
+	
+	
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script  src="./script.js"></script>
+  </body>
+</html>

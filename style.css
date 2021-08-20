@@ -1,0 +1,82 @@
+h5 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}
+
+/*!
+ * Yamm! - Yet another megamenu for Bootstrap
+ * http://geedmo.github.com/yamm
+ *
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+
+.yamm .container {
+  position: relative;
+}
+
+.yamm .dropdown-menu {
+  left: auto;
+}
+
+.yamm .yamm-content {
+  padding: 1rem;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu,
+.yamm .dropup.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.yamm-menu-wrap{top: 25px; background: #2B2A29;}
+.navbar-brand{
+	position: absolute;
+    top: -30px;
+    left: 0;
+	width:135px;
+	z-index: 9999;
+}
+.navbar-brand img{width:100%; box-shadow:0px 0px 10px #1e1e1e;}
+
+.navbar-light .navbar-nav .nav-link{color: rgb(255 255 255 / 98%);}
